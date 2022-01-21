@@ -11,11 +11,14 @@ h2 {
     border: 5px solid orange;
 }
 
-section p {
+section {
     width: 50%;
     height: 200px;
     background: gray;
     border: 5px solid black;
+}
+
+p {
     color: white;
 }
 
@@ -24,5 +27,5 @@ footer h3 {
     color: white;
     font-size: 20px;
     font-family: roboto, Arial, Helvetica, sans-serif;
-    border: 5px solid lightgreen;
+    border: 8px solid lightgreen;
 }
