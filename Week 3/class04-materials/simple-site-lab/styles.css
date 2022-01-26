@@ -10,6 +10,10 @@ body {
     margin: 25px;
 }
 
+section {
+    padding: 30px;
+}
+
 h1 {
     font-style: italic;
     font-weight: 200;
@@ -27,7 +31,8 @@ li {
 
 img {
     float: right;
-    max-width: 200px;
+    width: 200px;
+    padding: 20px;
 }
 
 .greenText {
