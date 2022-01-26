@@ -1,22 +1,16 @@
-header {
-    border: 5px solid black;
-    height: 25vh;
-    width: 100%;
-    content: "";
+* {
+    box-sizing: border-box;
+}
+
+header, footer{
+    height: 150px;
+    border: 3px solid black;
+    clear: both;
 }
 
 section {
+    height: 300px;
+    width: 33.33333%;
+    border: 3px solid black;
     float: left;
-    height: 50vh;
-    width: 32vw;
-    border: 5px solid black;
-    content: "";
-}
-
-footer {
-    float: right;
-    border: 5px solid black;
-    height: 25vh;
-    width: 100%;
-    content: "";
 }
