@@ -1,0 +1,24 @@
+li {
+    text-decoration: underline;
+    color: blue;
+    font-size: 15px;
+    background: gray;
+}
+
+h1 {
+    font-size: 30px;
+    color: gold;
+    display: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+footer {
+    background: rgb(51, 12, 12);
+    height: 300px;
+    width: 70%;
+}
+
+footer h2 {
+    text-decoration-line: line-through;
+}
