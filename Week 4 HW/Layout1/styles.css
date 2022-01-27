@@ -1,10 +1,27 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 header,
 footer {
-    height: 20%;
+    height: 10em;
     width: 100%;
     border: 3px black solid;
+    float: right;
+}
+
+section .three {
+    height: 13em;
+    width: 33.3333%;
+    border: 3px black solid;
+    float: left;
+}
+
+section .two {
+    height: 17em;
+    width: 50%;
+    border: 3px black solid;
+    float: left;
 }
