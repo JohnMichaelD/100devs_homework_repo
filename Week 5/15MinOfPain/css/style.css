@@ -45,21 +45,25 @@ section {
 @media  screen and (max-width: 600px) {
   header, footer {
     height: 90px;
+    background-color: lightgrey;
   }
 
   section {
     float: none;
     width: 100%;
+    background-color: pink;
   }
 }
 
 @media (min-width: 601px) and (max-width: 900px)  {
   header, footer {
     height: 120px;
+    background-color: lightseagreen;
   }
 
   section {
     width: 50.0000%;
+    background-color: lightgreen;
   }
 
   .sectionThree {
@@ -68,13 +72,15 @@ section {
 }
 
 @media (min-width: 901px) {
-  section {
-    width: 30%;
+  header, 
+  footer {
+    background-color: lightgoldenrodyellow;
   }
 
-  .sectionThree {
-    width: 40%;
+  section {
+    background-color: lightblue;
   }
+
 }
 
 /******************************************
