@@ -1,0 +1,32 @@
+html * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.mainStory,
+nav,
+.subStories {
+    float: left;
+}
+
+nav {
+    background-color: aqua;
+    width: 15%;
+}
+
+.mainStory {
+    background-color: lightcoral;
+    width: 50%;
+    height: 500px;
+}
+
+.subStories {
+    background-color: lightgreen;
+    width: 20%;
+}
+
+.latestStorySection {
+    clear: both;
+    margin-left: 15%;
+}
