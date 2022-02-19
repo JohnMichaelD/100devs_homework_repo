@@ -24,13 +24,13 @@ nav {
 }
 
 .subStories {
-    background-color: lightgreen;
     width: 20%;
 }
 
 .latestStorySection {
     clear: both;
     margin-left: 15%;
+    width: 63%;
 }
 
 /*///////////////////?///////
@@ -106,3 +106,83 @@ h1 {
 /*///////////////////?///////
     SubStories
 ////////////////////////////*/
+
+.subStories {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.subStory h2 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subStory p {
+    padding: 10px 0;
+    font-weight: bold;
+    color:rgb(50, 56, 56);
+}
+
+div.subStory.border {
+    border-bottom: 1px solid gray;
+}
+
+div.subStory.padding {
+    padding-top: 10px;
+}
+
+/*///////////////////?///////
+    Latest
+////////////////////////////*/
+
+h3.theLatest {
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+/*section.latestStory.border {
+    border-bottom: 1px solid gray;
+}*/
+
+h3.title {
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p.author {
+    font-size: 13px;
+    font-weight: bolder;
+    padding-top: 12px;
+}
+
+p.date {
+    font-size: 13px;
+    color: gray;
+    padding-top: 8px;
+}
+
+.latestStory {
+    display: block;
+}
+
+.latestStory .border {
+    border-top: 1px solid gray;
+}
+
+.titleContainer,
+.descContainer,
+.imgContainer {
+    float: left;
+    width: 33%;
+}
+
+.titleContainer,
+.descContainer {
+    padding: 5px;
+}
+
+.latestStoryImg {
+    width: 270px;
+    height: 150px;
+}
