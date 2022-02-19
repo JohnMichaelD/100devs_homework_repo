@@ -1,3 +1,7 @@
+/*///////////////////?///////
+    Layout
+////////////////////////////*/
+
 html * {
     box-sizing: border-box;
     padding: 0;
@@ -11,13 +15,11 @@ nav,
 }
 
 nav {
-    background-color: aqua;
     width: 15%;
 }
 
 .mainStory {
-    background-color: lightcoral;
-    width: 50%;
+    width: 40%;
     height: 500px;
 }
 
@@ -30,3 +32,77 @@ nav {
     clear: both;
     margin-left: 15%;
 }
+
+/*///////////////////?///////
+    Nav Design
+////////////////////////////*/
+
+.techCrunchLogo {
+    background-image: url(assets/techcrunchlogo.png);
+    background-size: cover;
+    display: " ";
+    height: 50px;
+    width: 75px;
+}
+
+.techCrunchLogo,
+ul,
+.loginContainer {
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.joinTech {
+    color: orange;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login,
+.link {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+    font-size: larger;
+    font-weight: 300;
+}
+
+/*///////////////////?///////
+    Main Story Design
+////////////////////////////*/
+
+.mainStory {
+    margin-top: 40px;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.mainStoryDesc {
+    color: gray;
+    font-size: 20px;
+}
+
+.mainStoryTitle,
+.mainStoryDesc,
+.mainStoryAuthor {
+    padding: 5px 0;
+}
+
+.mwImg {
+    height: 300px;
+    width: 100%;
+}
+
+/*///////////////////?///////
+    SubStories
+////////////////////////////*/
