@@ -5,48 +5,49 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Khan Academy</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         
         <header>
             <nav>
-                <div class="leftNav Nav">
-                    <ul>
-                        <li><a href="#">Courses</a></li>
+                <div class="leftNav">
+                    <ul class="first">
+                        <li><a class="navLink" href="#">Courses</a></li>
                     </ul>
                     <form>
                         <input placeholder="Search">
                     </form>
                 </div>
-
-                <div>
-                    <img src="khanlogo.png" alt="khan Academy Logo">
-                </div>
-
-                <div class="rightNav Nav">
-                    <ul>
-                        <li><a href="#">Donate</a></li>
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Sign Up</a></li>
-                    </ul>
-                </div>
+                <img class="logo" src="khanlogo.png" alt="khan Academy Logo">
+                <ul class="rightNav">
+                    <li><a class="navLink" href="#">Donate</a></li>
+                    <li><a class="navLink" href="#">Login</a></li>
+                    <li><a class="navLink" href="#">Sign Up</a></li>
+                </ul>
             </nav>
         </header>
 
-        <section class="welcomeSection">
-            <img src="homeImg.png" alt="students learning">
-            <h1>For every student, every classroom. Real results</h1>
-            <p>We're a nonprofit with the mission to provide a free world-class education for anyone, anywhere.</p>
-            <ul>
-                <li><a href="#">Learners</a></li>
-                <li><a href="#">Teachers</a></li>
-                <li><a href="#">Districts</a></li>
-                <li><a href="#">Parents</a></li>
-            </ul>
+        <section>
+
+            <section class="welcomeImg">
+                <img src="homeImg.png" alt="students learning">
+            </section>
+
+            <section class="welcomeSection">
+                <h1>For every student, every classroom. Real results</h1>
+                <p>We're a nonprofit with the mission to provide a free world-class education for anyone, anywhere.</p>
+                <ul>
+                    <li><a href="#">Learners</a></li>
+                    <li><a href="#">Teachers</a></li>
+                    <li><a href="#">Districts</a></li>
+                    <li><a href="#">Parents</a></li>
+                </ul>
+            </section>
         </section>
 
-        <section class="whyKhanSection">
+        <!--<section class="whyKhanSection">
             <h2>Why Khan Academy works</h2>
-        </section>
+        </section>-->
     </body>
 </html>
