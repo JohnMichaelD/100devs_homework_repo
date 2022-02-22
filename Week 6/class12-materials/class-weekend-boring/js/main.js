@@ -2,7 +2,9 @@ document.querySelector('#check').addEventListener('click', check)
 
 function check() {
 
-  const day = document.querySelector('#day').value
+    let word = document.querySelector('#day').value
+
+    const day = word.toLowerCase()
 
   //Conditionals go here
   if (day == "monday" || day == "wednesday" || day == "friday") {
@@ -12,5 +14,4 @@ function check() {
   } else {
       document.querySelector('#placeToSee').innerText = "Weekend"
   }
-
 }
