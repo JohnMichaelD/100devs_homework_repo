@@ -15,3 +15,5 @@ function MakeStreetFighter(fighterName, fighterPower, fighterSpecialty, fighterE
         alert(`Finish them with the ${this.element} specialty!`);
     }
 }
+
+let ryu = MakeStreetFighter("RYU","High Kick", "HADUKEN", "FIRE");
