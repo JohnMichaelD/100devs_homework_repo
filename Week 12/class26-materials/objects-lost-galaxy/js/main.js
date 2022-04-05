@@ -1,13 +1,11 @@
 //Create a pizza object that has four properties and three methods
 let pizza = {}
 
-//properties
 pizza.size = 'large'
 pizza.toppings = ['spinach','pepperoni','onion','ham','garlic']
 pizza.crust = 'stuffed'
 pizza.sauce = 'heavy'
 
-//methods
 pizza.estimatedDeliveryTime = function(){
     console.log('Calculating...')
 }
@@ -19,6 +17,7 @@ pizza.burnMouth = function(){
 pizza.frisbee = function(){
     console.log('YEET!')
 }
+
 
 //with literal notation - to make a new pizza, we have to copy and paste.
 
