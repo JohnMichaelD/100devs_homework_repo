@@ -6,7 +6,7 @@ function getDrink(){
 
 let drink = document.querySelector('input').value
 
-fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${drink}`)
+fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${drink}` /*+ drink, or use %20 or _ for spaces*/)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         console.log(data.drinks[0])
