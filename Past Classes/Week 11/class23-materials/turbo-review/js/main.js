@@ -1,6 +1,6 @@
 // *Variables*
 // Declare a variable and assign it to a sentence as a string. 
-//Alert if the sentance is a question
+//Alert if the sentence is a question
 let sentence = "Is this a question?"
 sentence.includes('?') ? alert(sentence) : console.log(sentence);
 
